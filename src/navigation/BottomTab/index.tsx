@@ -86,6 +86,7 @@ fill={focused ? COLORS.WHITE : COLORS.HIGHLIGHT_COLOR}
         name={TAB_ROUTES.MY_SPACE}
         component={MySpace}
         options={{
+          title:"My Space",
           tabBarIcon: ({focused, size, color}) => (
             <View  style={styles.mySpaceWrap}>
             <MySpaceIcon
